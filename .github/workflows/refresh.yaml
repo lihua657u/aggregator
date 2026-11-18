@@ -1,8 +1,6 @@
 name: Refresh
 on:
-  # performed twice a day (Beijing 02:00 / 16:00 = UTC 18:00 / 08:00)
-  schedule:
-    - cron: "0 8,18 * * *"
+  # schedule cancelled: manual trigger only
   workflow_dispatch:
 
 concurrency:
